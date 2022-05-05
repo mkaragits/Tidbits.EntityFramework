@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tidbits.EntityFramework", "Tidbits.EntityFramework\Tidbits.EntityFramework.csproj", "{C7A70327-BACB-4422-A0F8-6A5BA292AEA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ACA45BE-2FAD-47F9-81DF-559B4D1DD234}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tidbits.EntityFramework.Tests", "Tests\Tidbits.EntityFramework.Tests.csproj", "{6C2A0945-527B-40E3-82DA-7D9801C34734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7A70327-BACB-4422-A0F8-6A5BA292AEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A70327-BACB-4422-A0F8-6A5BA292AEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A70327-BACB-4422-A0F8-6A5BA292AEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A70327-BACB-4422-A0F8-6A5BA292AEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2A0945-527B-40E3-82DA-7D9801C34734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2A0945-527B-40E3-82DA-7D9801C34734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2A0945-527B-40E3-82DA-7D9801C34734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2A0945-527B-40E3-82DA-7D9801C34734}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CF6D6BC-1C37-4FC3-BA2C-E1879701F329}
+	EndGlobalSection
+EndGlobal
